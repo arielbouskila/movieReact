@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.search {
+  margin-top: 40px;
+}
+
+ul{
+  list-style: none;
+  display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+	/* background-color: #ccc; */
+}
+ul li {
+  margin: 0;
+	padding: 1%;
+  width: 33%;
+}
+ui li:hover{
+  border: 1px solid dodgerblue;
+}
+ul li label {
+  text-overflow: ellipsis;
+  color: cornflowerblue;
+  overflow: hidden;
+  max-width: 100%;
+  font-size: 17px;
+  font-family: fantasy;
+  white-space: nowrap;
+}
